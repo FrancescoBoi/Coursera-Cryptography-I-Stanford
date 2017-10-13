@@ -1,7 +1,7 @@
 
 //============================================================================
 // Name        : CryptographyCoursera.cpp
-// Author      : 
+// Author      : Francesco Boi
 // Version     :
 // Copyright   :
 // Description : Cryptography in C++, Ansi-style
@@ -14,8 +14,7 @@
 using namespace std;
 
 int main() {
-	cout << "Hello World" << endl; // prints Hello World
-	assignment1();
+    assignment1();
     sleep(3);
     assignment2();
     sleep(3);

@@ -97,7 +97,7 @@ std::string attackOTP2(std::vector<std::string> vect, std::string target)
 	while(1)
 	{
 		str_selected = loc_vect.size();
-		while(str_selected<0 || str_selected>loc_vect.size()-1)
+		while(str_selected>loc_vect.size()-1)
 		{
 
 			std::cout<<"\nPress the number of the string to be corrected or "
@@ -134,8 +134,7 @@ std::string attackOTP2(std::vector<std::string> vect, std::string target)
 		{
 
 			char_corr = loc_vect.at(str_selected).size()+1;
-			while (char_corr<0 ||
-					char_corr>loc_vect.at(str_selected).size()/2+1)
+			while (	char_corr>loc_vect.at(str_selected).size()/2+1)
 			{
 				printInterspacedString(boost::algorithm::unhex(loc_vect.at(str_selected)) ^ key);
 				std::cout<<"enter the position of the char to be changed\n";

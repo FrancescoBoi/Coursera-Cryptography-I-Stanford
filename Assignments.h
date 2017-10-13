@@ -2,7 +2,7 @@
  * Assignment1.h
  *
  *  Created on: 01 ott 2017
- *      Author: carlo
+ *  Author: Francesco Boi
  */
 
 #ifndef ASSIGNMENTS_H_
